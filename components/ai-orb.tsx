@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion'
 
-interface AIOrb {
+interface AIORBProps {
   size?: number
   active?: boolean
 }
 
-export default function AIOrb({ size = 200, active = false }: AIOrb) {
+export default function AIOrb({ size = 200, active = false }: AIORBProps) {
   return (
     <div className="relative" style={{ width: size, height: size }}>
       {/* Outer rings */}

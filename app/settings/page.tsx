@@ -204,7 +204,7 @@ export default function SettingsPage() {
           className="glass rounded-2xl p-6"
         >
           <h2 className="text-lg font-bold text-white mb-2">Voice Model</h2>
-          <p className="text-[#888] text-sm mb-5">Select the AI voice for MYRAAG&apos;s responses</p>
+          <p className="text-[#888] text-sm mb-5">Select the AI voice for MYRAAG's responses</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {voiceModels.map((model) => (
               <button
