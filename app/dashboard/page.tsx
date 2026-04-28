@@ -263,7 +263,6 @@ export default function DashboardPage() {
             </div>
             <p className="text-center text-sm text-[#888]">
               Excellent productivity today! You're in the top 15% of users.
-
             </p>
             <div className="mt-4 grid grid-cols-2 gap-2">
               {[
